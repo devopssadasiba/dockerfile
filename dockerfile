@@ -10,10 +10,10 @@ COPY ./ ./
 
 ENV NODE_ENV=dev
 
-EXPOSE 3000
+EXPOSE 5000
 
 # Default command
 CMD ["npm", "start"]
 
 # sudo docker build . -t sadasiba/example-node-app
-# docker run -d -p80:3000 yourusername/example-node-app
+# docker run -d -p3000:3000 sadasiba/example-node-app
