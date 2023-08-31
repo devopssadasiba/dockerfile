@@ -14,3 +14,6 @@ EXPOSE 3000
 
 # Default command
 CMD ["npm", "start"]
+
+# sudo docker build . -t sadasiba/example-node-app
+# docker run -d -p80:3000 yourusername/example-node-app
