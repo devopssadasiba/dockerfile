@@ -10,5 +10,7 @@ COPY ./ ./
 
 ENV NODE_ENV=dev
 
+EXPOSE 3000
+
 # Default command
 CMD ["npm", "start"]
